@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slide Music</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/icon/css/ionicons.css">
+</head>
+<body>
+    <header id="main-header" class="main-header">
+        <!-- DESKTOP MENU -->
+        <div id="desktop-navbar" class="desktop-navbar">
+            <div id="logo">
+                <a href="#">
+                    <img src="/img/logo_white.png" alt="logo">
+                </a>
+            </div>
+            <nav class="center-navbar">
+                <ul class="navbar-container">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li class="has-children">
+                        <a href="#">Albums</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="sub-item">Discography</a></li>
+                            <li><a href="#" class="sub-item">Single Album</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#">Tour</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="sub-item">Upcoming Events</a></li>
+                            <li><a href="#" class="sub-item">Past Events</a></li>
+                            <li><a href="#" class="sub-item">All Events</a></li>
+                            <li><a href="#" class="sub-item">Single Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#">Gallery</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="sub-item">Photo Gallery</a></li>
+                            <li><a href="#" class="sub-item">Single Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#">Videos</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="sub-item">Video Gallery</a></li>
+                            <li><a href="#" class="sub-item">Single Video</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#">Artists</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="sub-item">Artist Album</a></li>
+                            <li><a href="#" class="sub-item">Single Album</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-nav__icon">
+                <a href="#">
+                    <span class="ion-social-facebook"></span>
+                </a>
+                <a href="#">
+                    <span class="ion-social-twitter"></span>
+                </a>
+                <a href="#">
+                    <span class="ion-social-instagram"></span>
+                </a>
+                <a href="#">
+                    <span class="ion-bag"></span>
+                </a>
+                <div id="hmb-menu" class="hmb_menu">
+                    <span class="hmb-bar"></span>
+                    <span class="hmb-bar"></span>
+                    <span class="hmb-bar"></span>
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE MENU -->
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="mobile-menu__content">
+                <div class="mobile-social__icon">
+                    <a href="#">
+                        <span class="ion-social-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="ion-social-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="ion-social-instagram"></span>
+                    </a>
+                </div>
+                <div id="mobile-logo" class="mobile-logo">
+                    <a href="#">
+                        <img src="/img/logo_white.png" alt="logo">
+                    </a>
+                </div>
+                <div class="mobile-right">
+                    <a href="#">
+                        <span class="ion-bag"></span>
+                    </a>
+                    <div class="hmb-mobile__menu">
+                        <span class="hmb-mobile__bar"></span>
+                        <span class="hmb-mobile__bar"></span>
+                        <span class="hmb-mobile__bar"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-navigation__container">
+                <nav class="mobile-menu__item">
+                    <ul class="mobile-main__menu">
+                        <li><a href="#">Home</a></li>
+                        <li class="has-children">
+                            <div class="menu-item__inner">
+                                <a href="#">Albums</a>
+                                <div class="icon menu-btn">
+                                    <span class="ion-android-arrow-dropright"></span>
+                                </div>
+                            </div>
+                            <ul class="submenu">
+                                <li><a href="#">Discography</a></li>
+                                <li><a href="#">Single Album</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <div class="menu-item__inner">
+                                <a href="#">Tour</a>
+                                <div class="icon menu-btn">
+                                    <span class="ion-android-arrow-dropright"></span>
+                                </div>
+                            </div>
+                            <ul class="submenu">
+                                <li><a href="#">Upcoming Events</a></li>
+                                <li><a href="#">Past Events</a></li>
+                                <li><a href="#">All Events</a></li>
+                                <li><a href="#">Single Events</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <div class="menu-item__inner">
+                                <a href="#">Gallery</a>
+                                <div class="icon menu-btn">
+                                    <span class="ion-android-arrow-dropright"></span>
+                                </div>
+                            </div>
+                            <ul class="submenu">
+                                <li><a href="#">Photo Gallery</a></li>
+                                <li><a href="#">Single Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <div class="menu-item__inner">
+                                <a href="#">Videos</a>
+                                <div class="icon menu-btn">
+                                    <span class="ion-android-arrow-dropright"></span>
+                                </div>
+                            </div>
+                            <ul class="submenu">
+                                <li><a href="#">Photo Gallery</a></li>
+                                <li><a href="#">Single Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <div class="menu-item__inner">
+                                <a href="#">Artists</a>
+                                <div class="icon menu-btn">
+                                    <span class="ion-android-arrow-dropright"></span>
+                                </div>
+                            </div>
+                            <ul class="submenu">
+                                <li><a href="#">Artists Page</a></li>
+                                <li><a href="#">Single Artists</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home">
+        <div class="home-caption__one">M</div>
+        <div class="home-caption__two">Slide</div>
+        <div class="home-caption__greetings">Welcome To The M-Slide<br>Official Website</div>
+        <div class="home-linear"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Sometimes, we raise to the occasion</h2>
+                <p>Both could be said about M-Slide, one of the country’s most successful independent <br> bands, and their forthcoming album, America, Location 12.</p>
+                <a href="#" class="main-btn">
+                    More About Us
+                    <i class="ion-android-arrow-forward"></i>
+                </a>
+            </div>
+            <div class="video-wrapper">
+                <div id="video-inner" class="video-inner">
+                    <a href="javascript:void(0)" id="play-btn" class="play-btn">
+                        <span class="ion-ios-play"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALBUM SECTION -->
+    <section id="album" class="section-gap">
+        <div class="container">
+            <div class="section-block__heading">
+                <div class="left-heading">
+                    <h2>Discover Slide newest <br> albums & singles.</h2>
+                </div>
+                <div class="right-heading">
+                    <a href="#" class="main-btn">
+                        View All Release
+                        <i class="ion-android-arrow-forward"></i>
+                    </a>
+                </div>
+            </div>
+            
+           <div class="album-container">
+               <div class="album-col-md">
+
+                   <div class="album-header">
+                       <p>Proving that they are not your average country band, M-Slide blends old-fashioned country charm, lyrical wit and rock n’ roll grit into radio-friendly, hook-heavy pop nuggets.</p>
+                   </div>
+
+                   <div class="gallery-container">
+                        <div class="gallery-item">
+                            <div class="gallery-item__wrap wrap-1">
+                                    <a href="#">
+                                        <div class="gallery-img__one"></div>
+                                    </a>
+                            </div>
+                            <div class="gallery-item__wrap wrap-2">
+                                    <a href="#">
+                                        <div class="gallery-img__two"></div>
+                                    </a>
+                            </div>
+                       </div>
+                       <div class="gallery-item">
+                            <div class="gallery-item__wrap wrap-3">
+                                <a href="#">
+                                    <div class="gallery-img__three"></div>
+                                </a>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="album-col-md">
+                   <div class="gallery-item__right">
+                        <div class="gallery-item__wrap wrap-4">
+                            <a href="#">
+                                <div class="gallery-img__four"></div>
+                            </a>
+                        </div>
+                        <div class="gallery-container">
+                            <div class="gallery-item">
+                                <div class="gallery-item__wrap wrap-5">
+                                    <a href="#">
+                                        <div class="gallery-img__five"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <div class="gallery-item__wrap wrap-6">
+                                    <a href="#">
+                                        <div class="gallery-img__six"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+           </div>
+            
+        </div>
+    </section>
+
+    <!-- SHOWS SECTION -->
+    <section id="show" class="show section-gap">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Upcoming Shows</h2>
+                <p>Follow our amazing shows in 2018 all around US</p>
+            </div>
+            
+            <div class="show-container">
+                <ul class="show-items">
+                    <li>
+                        <a href="#" class="show-list__items">
+                            <div class="event-date__block">
+                                <div class="event-date__container">
+                                    <div class="event-day">21</div>
+                                    <div class="event-month">MAR</div>
+                                </div>
+                            </div>
+                            <div class="event-title__block">
+                                <div class="event-img">
+                                    <img src="/img/hamstrung-300x231.jpg" alt="">
+                                </div>
+                                <div class="event-title">
+                                    <h2>Rockness Festival</h2>
+                                    <div class="event-location">Loch Ness, UK</div>
+                                </div>
+                            </div>
+                            <div class="event-venue__block">
+                                <i class="ion-android-pin"></i>
+                                Rockness Festival
+                            </div>
+                            <div class="event-time__block">
+                                <i class="ion-android-time"></i>
+                                8:00 pm
+                            </div>
+                            <div class="event-buy__block">
+                                <div href="#" class="event-buy__btn">
+                                    Buy Tickets
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!--END-->
+                    <li>
+                        <a href="#" class="show-list__items">
+                            <div class="event-date__block">
+                                <div class="event-date__container">
+                                    <div class="event-day">12</div>
+                                    <div class="event-month">Jun</div>
+                                </div>
+                            </div>
+                            <div class="event-title__block">
+                                <div class="event-img">
+                                    <img src="/img/elmer-300x231.jpg" alt="">
+                                </div>
+                                <div class="event-title">
+                                    <h2>Afterhills Festival</h2>
+                                    <div class="event-location">Abersoch, Gwynedd, UK</div>
+                                </div>
+                            </div>
+                            <div class="event-venue__block">
+                                <i class="ion-android-pin"></i>
+                                Wakestock Festival
+                            </div>
+                            <div class="event-time__block">
+                                <i class="ion-android-time"></i>
+                                8:00 pm
+                            </div>
+                            <div class="event-buy__block">
+                                <div href="#" class="event-buy__btn">
+                                    Buy Tickets
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!--END-->
+                    <li>
+                        <a href="#" class="show-list__items">
+                            <div class="event-date__block">
+                                <div class="event-date__container">
+                                    <div class="event-day">12</div>
+                                    <div class="event-month">Jul</div>
+                                </div>
+                            </div>
+                            <div class="event-title__block">
+                                <div class="event-img">
+                                    <img src="/img/gallery5-300x200.jpg" alt="">
+                                </div>
+                                <div class="event-title">
+                                    <h2>Wakestock Festival</h2>
+                                    <div class="event-location">Abersoch, Gwynedd, UK</div>
+                                </div>
+                            </div>
+                            <div class="event-venue__block">
+                                <i class="ion-android-pin"></i>
+                                Wakestock Festival
+                            </div>
+                            <div class="event-time__block">
+                                <i class="ion-android-time"></i>
+                                9:00 pm
+                            </div>
+                            <div class="event-buy__block">
+                                <div href="#" class="event-buy__btn sold-out">
+                                    Sold Out
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!--END-->
+                     <li>
+                        <a href="#" class="show-list__items">
+                            <div class="event-date__block">
+                                <div class="event-date__container">
+                                    <div class="event-day">02</div>
+                                    <div class="event-month">Aug</div>
+                                </div>
+                            </div>
+                            <div class="event-title__block">
+                                <div class="event-img">
+                                    <img src="/img/giants-300x231.jpg" alt="">
+                                </div>
+                                <div class="event-title">
+                                    <h2>Lollapalooza Festival</h2>
+                                    <div class="event-location">Grant Park, Chicago, US</div>
+                                </div>
+                            </div>
+                            <div class="event-venue__block">
+                                <i class="ion-android-pin"></i>
+                                Lollapalooza Festival
+                            </div>
+                            <div class="event-time__block">
+                                <i class="ion-android-time"></i>
+                                9:00 pm
+                            </div>
+                            <div class="event-buy__block">
+                                <div href="#" class="event-buy__btn">
+                                    Buy Tickets
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!--END-->
+                </ul>
+                <div class="event-show__more">
+                    <a href="#" class="main-btn">
+                        View All Shows
+                        <i class="ion-android-arrow-forward"></i>
+                    </a>
+                </div>
+                <!-- Music Player -->
+                <div class="music-player__container">
+                    <div class="music-player__left"></div>
+                    <div class="music-player__right">
+                        <div class="music-player__top">
+                            <div class="player-top__content">
+                                <div class="album-text">Featured Album</div>
+                                <div class="album-title">Minutes To Midnight</div>
+                            </div>
+                            <div class="player-btn__container">
+                                <a href="#" class="player-btn">
+                                    <i class="ion-social-apple"></i>
+                                    Buy On Itunes
+                                </a>
+                            </div>
+                        </div>
+                        <div class="music-player__content">
+
+                            <div class="music-player__item now_playing">
+                                <div class="player-song" data-playlist="0">
+                                    <i class="ion-android-arrow-dropright"></i>
+                                    <p class="song-title">
+                                        <span class="artist">Linkin Park</span>
+                                        - One More Light
+                                    </p>
+                                </div>
+                                <div class="player-song__details">
+                                    <div class="player-song__buy">
+                                        <a href="#">
+                                            <i class="ion-social-youtube"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-apple"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="ion-social-tumblr"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <span class="song-duration">4:30</span>
+                                </div>
+                            </div>
+                            <!--END-->
+                            <div class="music-player__item">
+                                <div class="player-song" data-playlist="1">
+                                    <i class="ion-android-arrow-dropright"></i>
+                                    <p class="song-title">
+                                        <span class="artist">Linkin Park</span>
+                                        - Waiting For The End
+                                    </p>
+                                </div>
+                                <div class="player-song__details">
+                                    <div class="player-song__buy">
+                                        <a href="#">
+                                            <i class="ion-social-youtube"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-apple"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="ion-social-tumblr"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <span class="song-duration">3:54</span>
+                                </div>
+                            </div>
+                            <!--END-->
+                            <div class="music-player__item">
+                                <div class="player-song" data-playlist="2">
+                                    <i class="ion-android-arrow-dropright"></i>
+                                    <span class="song-title">
+                                        <span class="artist">Linkin Park</span>
+                                        - Talking To Myself
+                                    </span>
+                                </div>
+                                <div class="player-song__details">
+                                    <div class="player-song__buy">
+                                        <a href="#">
+                                            <i class="ion-social-youtube"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-apple"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="ion-social-tumblr"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <span class="song-duration">3:51</span>
+                                </div>
+                            </div>
+                            <!--END-->
+                            <div class="music-player__item">
+                                <div class="player-song" data-playlist="3">
+                                    <i class="ion-android-arrow-dropright"></i>
+                                    <span class="song-title">
+                                        <span class="artist">Martin Garrix</span>
+                                        - Together
+                                    </span>
+                                </div>
+                                <div class="player-song__details">
+                                    <div class="player-song__buy">
+                                        <a href="#">
+                                            <i class="ion-social-youtube"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-apple"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="ion-social-tumblr"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <span class="song-duration">3:41</span>
+                                </div>
+                            </div>
+                            <!--END-->
+                            <div class="music-player__item">
+                                <div class="player-song" data-playlist="4">
+                                    <i class="ion-android-arrow-dropright"></i>
+                                    <p class="song-title">
+                                        <span class="artist">Martin Garrix</span>
+                                        - Burnout
+                                    </p>
+                                </div>
+                                <div class="player-song__details">
+                                    <div class="player-song__buy">
+                                        <a href="#">
+                                            <i class="ion-social-youtube"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-apple"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="ion-social-tumblr"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ion-social-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <span class="song-duration">3:37</span>
+                                </div>
+                            </div>
+                            <!--END-->
+                            <audio src="" id="audio"></audio>
+                        </div>
+                        <div class="music-player__btm">
+                            <div class="music-player__slider"></div>
+                            <div class="music-slider__time" id="music-slider"></div>
+                            <div class="music-player__controls">
+                                <div class="current-play">
+                                    <div class="playing">Playing</div>
+                                    <div class="current-song__name" id="current-song">Linkin Park - One More Light</div>
+                                </div>
+                                <div class="player-control__btn">
+                                    <i class="ion-ios-skipbackward prev"></i>
+                                    <i class="ion-play play-ctrl__btn"></i>
+                                    <i class="ion-ios-skipforward next"></i>
+                                </div>
+                                <div class="music-timeline">
+                                    <span class="song-current__progress">0:00</span>
+                                    <span class="player-duration__sep">/</span>
+                                    <span class="song-duration" id="song-duration">4:30</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEMBER SECTION -->
+    <section id="member" class="section-gap">
+        <div class="container">
+            <div class="section-block__heading">
+                <div class="left-heading">
+                    <h2>M-Slide talented <br> members.</h2>
+                </div>
+                <div class="right-heading">
+                    <p>M-Slide heads into the era of America, Location 12 with both the passion and vigor of a band in their infancy and the knowledge and power of one together for twenty years and counting.</p>
+                </div>
+            </div>
+            <!--Member-->
+            <div class="member-list__container">
+                <div class="member-block">
+                    <div class="member-img img-one">
+                        <div class="member-social">
+                            <a href="#">
+                                <i class="ion-social-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-instagram-outline"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="member-caption">
+                        <a href="#">
+                            <h3>Mabelle Howell</h3>
+                            <span>Main Vocal</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="member-block">
+                    <div class="member-img img-two">
+                        <div class="member-social">
+                            <a href="#">
+                                <i class="ion-social-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-instagram-outline"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="member-caption">
+                        <a href="#">
+                            <h3>Jordan Paul</h3>
+                            <span>Guitar</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="member-block">
+                    <div class="member-img img-three">
+                        <div class="member-social">
+                            <a href="#">
+                                <i class="ion-social-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-instagram-outline"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="member-caption">
+                        <a href="#">
+                            <h3>Derex Dickson</h3>
+                            <span>Piano</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="member-block">
+                    <div class="member-img img-four">
+                        <div class="member-social">
+                            <a href="#">
+                                <i class="ion-social-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-instagram-outline"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ion-social-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="member-caption">
+                        <a href="#">
+                            <h3>Joel Lindsey</h3>
+                            <span>Guitar</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Carousel-->
+            <div class="carousel-wrapper">
+                <div class="icon">
+                    <i class="ion-quote"></i>
+                </div>
+                <div class="carousel-container">
+                    <div class="carousel-slider">
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <p>We just wanted to say thank you so much to M-Slide Band for creating such an incredible event.</p>
+                                <h5 class="carousel-name">Martin Stanley</h5>
+                                <span>Business Manager</span>
+                                <img src="/img/review1.jpg" alt="" width="50" height="50">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <p>I have never seen such a responsive, immediate customer support service before.</p>
+                                <h5 class="carousel-name">Steven Kewley</h5>
+                                <span>Envato Customer</span>
+                                <img src="/img/review2.jpg" alt="" width="50" height="50">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-arrow">
+                        <div class="prev-arrow" id="prev">
+                            <i class="ion-ios-arrow-left"></i>
+                        </div>
+                        <div class="next-arrow" id="next">
+                            <i class="ion-ios-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--NEWS SECTION-->
+    <section id="news" class="section-gap">
+        <div class="container">
+            <div class="news-heading">
+                <div class="news-left">
+                    <h2>Latest News</h2>
+                    <p>See what’s happenning around the world of music</p>
+                </div>
+                <div class="news-right">
+                    <a href="#" class="main-btn">
+                        View All News
+                        <i class="ion-android-arrow-forward"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="news-block">
+                    <div class="news-block__inner">
+                        <div class="news-date">March 29, 2018</div>
+                        <a href="#">
+                            <h2 class="title">Chemical Bond</h2>
+                        </a>
+                        <p>Jazz is rage. Jazz flows like water. Jazz never seems to begin or end. Jazz isn’t methodical, but…</p>
+                        <a href="#" class="news-btn">
+                            Read More
+                            <i class="ion-android-arrow-forward"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--END-->
+                <div class="news-block">
+                    <div class="news-block__inner">
+                        <div class="news-date">March 29, 2018</div>
+                        <a href="#">
+                            <h2 class="title">Beautiful Typography</h2>
+                        </a>
+                        <p>Jazz is rage. Jazz flows like water. Jazz never seems to begin or end. Jazz isn’t methodical, but…</p>
+                        <a href="#" class="news-btn">
+                            Read More
+                            <i class="ion-android-arrow-forward"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--END-->
+                <div class="news-block">
+                    <div class="news-block__inner">
+                        <div class="news-date">March 29, 2018</div>
+                        <a href="#">
+                            <h2 class="title">Chemical Bond</h2>
+                        </a>
+                        <p>Jazz is rage. Jazz flows like water. Jazz never seems to begin or end. Jazz isn’t methodical, but…</p>
+                        <a href="#" class="news-btn">
+                            Read More
+                            <i class="ion-android-arrow-forward"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--END-->
+                
+            </div>
+        </div>
+    </section>
+
+    <!--SUBSCRIBE SECTION-->
+    <section id="subscribe" class="section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="sub-left">
+                    <h2>Subscribe</h2>
+                    <p>Sign up for new releases to your inbox every week</p>
+                </div>
+                <div class="sub-right">
+                    <div class="form-wrapper">
+                        <form action="#">
+                            <div class="text-input">
+                                <i class="ion-email"></i>
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                            <input type="submit" value="SUBSCRIBE">
+                        </form>
+                    </div>
+                    <div class="error-msg">400: The resource submitted could not be validated. For field-specific details, see the 'errors' array.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Hello@slidermusic.com</p>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Album</a></li>
+                    <li><a href="#">Tour</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Artists</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="ion-social-facebook"></i></a>
+                <a href="#"><i class="ion-social-instagram-outline"></i></a>
+                <a href="#"><i class="ion-social-twitter"></i></a>
+            </div>
+            <div class="footer-logo">
+                <img src="/img/logo_white.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- SIDE MENU -->
+    <div id="side-menu" class="side-menu">
+        <div class="close-btn__container mb-1">
+            <button class="close-btn">
+                <span class="ion-android-close"></span>
+            </button>
+        </div>
+        <div class="side-menu__contact">
+            <h3 class="mb-1">Slide</h3>
+            <div class="side-menu__address mb-1">2066 Merton Street, Toronto, Ontario</div>
+            <div class="side-menu__phone mb-1">Phone: +89 425 753 5428</div>
+            <div class="side-menu__fax mb-1">Fax: +89 916 768 5532</div>
+            <div class="side-menu__email mb-1">Email: hello@slidemusic.com</div>
+            <div class="side-menu__social">
+                <a href="#">
+                    <span class="ion-social-facebook"></span>
+                </a>
+                <a href="#">
+                    <span class="ion-social-twitter"></span>
+                </a>
+                <a href="#">
+                    <span class="ion-social-instagram"></span>
+                </a>
+            </div>
+        </div>
+        <div class="side-menu__widget">
+            <h3 class="mb-1">Trending Design</h3>
+            <p>Slide is a creative music theme following  the latest design trends – suitable for musicians, artists, music bands, producers or anyone working in the music industry.</p>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
